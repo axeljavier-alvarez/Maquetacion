@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+
+.contenedor {
+    width: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+header{
+    height: 350px;
+    background-color: yellow;
+}
+
+/* PARTE DEL NAV JAJAJAJA */
+nav{
+    height: 125px;
+    display: flex;
+}
+
+.naranja, .gris{
+    width: 25%;
+}
+.naranja{
+    background-color: #F8721B;
+}
+.gris{
+    background-color: darkgray;
+}
+
+#contenido {
+    /* ELEMENTO A LA PAR DEL OTRO  TAMAÑO DE LA CAJA DE LOS ELEMENTOS*/
+    display: flex;
+    height: 500px;
+}
+
+/*  MISMO TAMAÑO QUE EL CONTENIDO*/
+.tam_contenido {
+    height: 500px;
+   /*  width: 33.33%; */
+}
+
+
+#section2 {
+    background-color: #A6E8AA;
+    width: 25%; 
+} 
+article {
+    background-color: white;
+    width: 50%;
+}
+
+main {
+    background-color: #A6E8AA;
+    width: 25%;
+}
+
+#final{
+    background-color: black;
+    height: 50px;
+}

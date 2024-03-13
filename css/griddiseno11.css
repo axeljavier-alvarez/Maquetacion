@@ -1,0 +1,64 @@
+.contenedor{
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 125px;
+}
+
+header{
+    height: 350px;
+    background-color: yellow;
+}
+
+main{
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
+
+
+#nav_sec1, #nav_sec3{
+    background-color: blue;
+
+}
+
+#nav_sec2, #nav_sec4{
+    background-color: gray;
+
+}
+
+#main_sec, aside{
+    background-color: aquamarine;
+}
+
+@media(max-width: 600px){
+    nav{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 125px;
+    }
+
+    #nav_sec3{
+        background-color: bisque;
+    }
+
+    #nav_sec4{
+        background-color: chartreuse;
+    }
+
+    main{
+        height: 500px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+

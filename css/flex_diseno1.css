@@ -1,0 +1,48 @@
+
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.contenedor {
+    width: 1440px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+header{
+    height: 350px;
+    background-color: #079EF5;
+}
+
+#contenido {
+    /* ELEMENTO A LA PAR DEL OTRO  TAMAÑO DE LA CAJA DE LOS ELEMENTOS*/
+    display: flex;
+    height: 900px;
+}
+
+.tam_contenido {
+    height: 900px;
+   /*  width: 33.33%; */
+}
+nav {
+    background-color: #A7D5EF;
+    width: 28%;
+}
+
+main {
+    background-color: white;
+    width: 44%;
+}
+
+aside {
+    background-color: #EAB74B;
+    width: 28%;
+}
+
+#final{
+    background-color: darkblue;
+    height: 50px;
+}
+
+    

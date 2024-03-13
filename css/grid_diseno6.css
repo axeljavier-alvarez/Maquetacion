@@ -1,0 +1,109 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.contenedor{
+    width: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+/* CONFIGURACION DE FLECHA */
+.config-flecha{
+    margin-left: -380px;
+    width: 20%;
+    margin-top: -100px;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+header{
+
+    height: 200px;
+    background-color: black;
+}
+
+#menu1{
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#caja1, #caja2, #caja3{
+    height: 250px;
+}
+
+#caja1{
+    background-color: yellow;
+}
+
+#caja2{
+    background-color: darkblue;
+}
+
+#caja3{
+    background-color: yellow;
+}
+
+#menu2{
+    height: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#redbox, #greenbox{
+    height: 150px;
+}
+
+#redbox{
+    background-color: red;
+}
+
+#greenbox{
+    background-color: greenyellow;
+}
+
+#menu3{
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+#orangebox, #redbox{
+    height: 300px;
+}
+
+#orangebox{
+    background-color: orange;
+}
+
+#redbox{
+    background-color: red;
+}
+
+aside{
+    height: 200px;
+    background-color: black;
+}
+
+#footer{
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+#red, #orange{
+    height: 300px;
+}
+
+#red{
+    background-color: red;
+}
+
+#orange{
+    background-color: orange;
+}

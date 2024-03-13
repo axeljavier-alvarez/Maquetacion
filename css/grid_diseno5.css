@@ -1,0 +1,126 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.contenedor{
+    width: 1440px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+/* CONFIGURACION DE FLECHA */
+.config-flecha{
+    margin-left: -200px;
+    width: 15%;
+    margin-top: -100px;
+}
+
+header{
+
+    height: 400px;
+    background-color: orange;
+}
+
+nav{
+    height: 50px;
+    background-color: aquamarine;
+}
+
+#empresa{
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#mision, #vision, #valores{
+    height: 250px;
+}
+
+#mision{
+    background-color: green;
+}
+
+#vision{
+    background-color: yellow;
+}
+
+#valores{
+    background-color: bisque;
+}
+
+main{
+    height: 800px;
+    background-color: white;
+}
+
+#imagenes{
+    height: 240px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+/* ETIQUETAS ID QUE ESTAN DENTRO DE #IMAGENES*/
+#imagenes img{
+    height: 240px;
+}
+
+#azul{
+    background-color: skyblue;
+}
+
+#azul2{
+    background-color: skyblue;
+}
+
+#azul3{
+    background-color: skyblue;
+}
+
+#naranja{
+    background-color: orange;
+}
+
+#naranja2{
+    background-color: orange;
+}
+
+#naranja3{
+    background-color: orange;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+}
+
+@media(max-width: 1024px){
+
+
+    .contenedor{
+        width: 1024px;
+    }
+
+    #empresa{
+        
+        grid-template-columns: auto auto;
+    }
+
+    #valores{
+        grid-column: 1 / span 2;
+    }
+
+    #imagenes{
+        grid-template-columns: auto auto auto;
+    }
+
+   
+    footer{
+        height: 290px;
+    }
+}

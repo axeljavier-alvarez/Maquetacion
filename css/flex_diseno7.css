@@ -1,0 +1,108 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+#contenedor{
+    width: 900px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+/* main */
+#menu1{
+    height: 200px;
+    display: flex;
+}
+#nav_azul{
+    width: 11.11%;
+    background-color: #0751F0;
+}
+#nav_griss{
+    width: 11.11%;
+    background-color: gray;
+}
+
+#nav_gray{
+    width: 11.11%;
+    background-color: red;
+}
+
+#nav_red1{
+    width: 11.12%;
+    background-color: red;
+}
+/* MAIN 1 */
+#main1{
+    height: 300px;
+    display: flex;
+}
+
+#artnegro{
+    width: 67%;
+    background-color: black;
+}
+
+#artamarillo{
+    width: 33%;
+    background-color: yellow;
+}
+
+
+/* MAIN 2 */
+#main2{
+    height: 400px;
+    display: flex;
+}
+
+#main_red{
+    width: 43%;
+    background-color: red;
+}
+
+#main_green{
+    width: 57%;
+    background-color: #0577F8;
+}
+
+/* SECTION 1 */
+#menuverde{
+    height: 200px;
+    background-color: #6EE791;
+}
+
+/* MAIN 3 */
+#main3{
+    height: 150px;
+    display: flex;
+}
+
+#yellow{
+    width: 33.33%;
+    background-color: yellow;
+}
+
+#black{
+    width: 33.34%;
+    background-color: black;
+}
+
+/* footer */
+#menu4{
+    height: 200px;
+    display: flex;
+}
+
+#footblue{
+    width: 11.11%;
+    background-color: #0751F0;
+}
+
+#footred{
+    width: 11.11%;
+    background-color: red;
+}
+#footgray{
+    width: 11.11%;
+    background-color: gray;
+}

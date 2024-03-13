@@ -1,0 +1,82 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.contenedor{
+    width: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+
+/* CONFIGURACION DE FLECHA */
+.config-flecha{
+    margin-left: -400px;
+    width: 20%;
+    margin-top: -100px;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+
+header{
+    height: 350px;
+    background-color: yellow;
+}
+
+#vista1{
+    height: 125px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#pagina1, #pagina2, #pagina3, #pagina4{
+    height: 125px;
+}
+
+#pagina1{
+    background-color: orangered;
+}
+
+#pagina2{
+    background-color: gray;
+}
+
+#pagina3{
+    background-color: orangered;
+}
+
+#pagina4{
+    background-color: gray;
+}
+
+#contenido{
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#section, #article, #main{
+    height: 500px;
+}
+
+#section{
+    background-color: greenyellow;
+}
+
+#article{
+    background-color: white;
+}
+
+#main{
+    background-color: greenyellow;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+}

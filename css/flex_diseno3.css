@@ -1,0 +1,76 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* */
+}
+
+header{
+    height: 20%;
+    background-color: black;
+
+}
+
+#principal{
+    height: 50%;
+    background-color: gainsboro;
+    display: flex;
+}
+
+main{
+    flex-grow: 3;
+
+}
+
+#derecha{
+    flex-grow: 1;
+    background-color: orange;
+}
+
+#sesion{
+    background-color: skyblue;
+    height: 50%;
+}
+
+nav{
+
+    height: 50%;
+}
+
+#final{
+    height: 50%;
+    display: flex;
+}
+
+.sec_final{
+    flex-grow: 1;
+    height: 100%;
+}
+
+#final1{
+    background-color: greenyellow;
+
+}
+
+#final2{
+    background-color: yellow;
+}
+
+#final3{
+    background-color: red;
+}
+
+#final4{
+    background-color: orange;
+}
+
+footer{
+    background-color: black;
+    height: 10%;
+}

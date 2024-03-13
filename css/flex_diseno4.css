@@ -1,0 +1,63 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+header{
+    background-color: yellow;
+    height: 250px;
+}
+nav{
+    height: 100px;
+    display: flex;
+}
+.verde, .celeste, .gris{
+    width: 33.33%;
+}
+.verde{
+    background-color: chartreuse;
+}
+.celeste{
+    background-color: aquamarine;
+}
+.gris{
+    background-color: darkgray;
+}
+main{
+    background-color: orange;
+    height: 500px;
+    display: flex;
+}
+#main_cafe{
+    width: 50%;
+    background-color: burlywood;
+}
+#main_naranja{
+    width: 50%;
+    background-color: orange;
+}
+#seccion_final{
+    background-color: gray;
+    height: 250px;
+    display: flex;
+}
+#art1, #art2, #art3, #art4, #art5, #art6{
+    width: 16.66%;
+}
+#art1, #art3, #art5{
+    background-color: darkkhaki;
+}
+#art2, #art4, #art6{
+    background-color: cadetblue;
+}
+footer{
+    background-color: black;
+    height: 100px;
+}

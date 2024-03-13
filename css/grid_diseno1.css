@@ -1,0 +1,56 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.contenedor{
+    width: 1440px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+
+/* CONFIGURACION DE FLECHA */
+.config-flecha{
+    margin-left: -190px;
+    width: 15%;
+    margin-top: -100px;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+header{
+
+    height: 350px;
+    background-color: #0B91F5;
+}
+
+#vista1{
+    height: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#menu, #contenido, #login{
+    height: 900px;
+}
+
+#menu{
+    background-color: green;
+}
+
+#contenido{
+    background-color: yellow;
+}
+
+#login{
+    background-color: bisque;
+}
+
+footer{
+    height: 50px;
+    background-color: darkblue;
+}

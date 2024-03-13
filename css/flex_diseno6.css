@@ -1,0 +1,83 @@
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.contenedor{
+    width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+header{
+    height: 200px;
+    background-color: black;
+}
+
+#menu1{
+    height: 250px;
+    display: flex;
+}
+#main_verde{
+    width: 33.33%;
+    background-color: yellow;
+}
+#main_amarillo{
+    width: 33.34%;
+    background-color: blue;
+}
+
+#main_celeste{
+    width: 33.33%;
+    background-color: yellow;
+}
+
+#menu2{
+    height: 150px;
+    display: flex;
+}
+
+#main_red{
+    width: 50%;
+    background-color: red;
+}
+
+#main_green{
+    width: 50%;
+    background-color: #BFFF7F;
+}
+
+#menu3{
+    height: 300px;
+    display: flex;
+}
+
+#main_orange{
+    width: 80%;
+    background-color: orange;
+}
+
+#main_rojo{
+    width: 20%;
+    background-color: red;
+}
+
+#blacksection{
+    height: 200px;
+    background-color: black;
+}
+
+main{
+    height: 300px;
+    display: flex;
+}
+
+#cuadrorojo{
+    width: 20%;
+    background-color: red;
+}
+
+#cuadronaranja{
+    width: 80%;
+    background-color: orange;
+}

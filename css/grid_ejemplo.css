@@ -1,0 +1,50 @@
+#uno{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* PUEDO MODIFICAR EL JUSTIFY CONTENT XD*/
+    justify-content: center;
+    /* grid-template-rows: 300px 500px; */
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: beige;
+}
+
+#dos{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 20px 100px;
+    background-color: aqua;
+}
+
+#tres{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: beige;
+    grid-template-rows: 500px 300px;
+}
+
+#a1{
+    width: 100%;
+    /* 1/4 1= valor inicial 4= valor final
+    (siempre es uno mayor al que se quiera abarcar)*/
+    grid-column: 1/4; 
+}
+
+#a3 {
+    width: 100%;
+    grid-column: 2/4;
+}
+
+#a5 {
+    width: 100%;
+    grid-column: 2/span 2;
+}
+article{
+    border: 1px solid black;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+}

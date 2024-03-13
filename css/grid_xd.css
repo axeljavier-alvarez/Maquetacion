@@ -1,0 +1,84 @@
+.contenedor{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 350px 125px 500px 50px;
+    grid-template-areas: 
+    "enc enc enc enc"
+    "pag1 pag2 pag3 pag4"
+    "sec1 articulo articulo aside"
+    "pie pie pie pie";
+}
+
+header{
+    grid-area: enc;
+    background-color: yellow;
+}
+
+#nav_sec1{
+    grid-area: pag1;
+}
+
+#nav_sec2{
+    grid-area: pag2;
+}
+#nav_sec3{
+    grid-area: pag3;
+}
+#nav_sec4{
+    grid-area: pag4;
+}
+
+#main_sec{
+    grid-area: sec1;
+}
+#main_articulo{
+    grid-area: articulo;
+    background-color: gray;
+}
+aside {
+    grid-area: aside;
+
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    grid-area: pie;
+
+}
+
+#nav_sec1, #nav_sec3{
+    background-color: blue;
+}
+
+#main_sec, aside{
+    background-color: aquamarine;
+}
+
+@media(max-width:600px){
+    .contenedor{
+        margin: auto;
+        display: grid;
+        grid-template-rows: 350px 125px 125px 500px 500px 500px 50px;
+        grid-template-areas:
+        "enc enc"
+        "pag1 pag2"
+        "pag3 pag4"
+        "sec1 sec1"
+        "articulo articulo"
+        "aside aside"
+        "pie pie"
+        ;
+    }
+
+    #nav_sec3{
+        background-color: orange;
+    }
+
+    #nav_sec4{
+        background-color: beige;
+    }
+}
+
+
