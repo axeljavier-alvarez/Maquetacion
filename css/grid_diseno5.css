@@ -75,11 +75,11 @@ main{
 }
 
 #azul2{
-    background-color: skyblue;
+    background-color: darkblue;
 }
 
 #azul3{
-    background-color: skyblue;
+    background-color: darkcyan;
 }
 
 #naranja{
@@ -87,11 +87,11 @@ main{
 }
 
 #naranja2{
-    background-color: orange;
+    background-color: orangered;
 }
 
 #naranja3{
-    background-color: orange;
+    background-color: yellow;
 }
 
 footer{
@@ -117,10 +117,38 @@ footer{
 
     #imagenes{
         grid-template-columns: auto auto auto;
+        height: auto;
     }
 
-   
-    footer{
-        height: 290px;
+
+    @media(max-width: 768px){
+        .contenedor{
+            width: 768px;
+        }
+
+        #empresa{
+        
+            grid-template-columns: auto auto auto;
+        }
+    
+       #mision{
+        grid-column: 1 / span 3;
+
+       }
+
+       #vision{
+        grid-column: 1 / span 3;
+
+       }
+       #valores{
+        grid-column: 1 / span 3;
+
+       }
+
+        #imagenes{
+            grid-template-columns: auto auto;
+            height: auto;
+        }
     }
 }
+
